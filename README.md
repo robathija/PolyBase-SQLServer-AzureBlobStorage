@@ -1,7 +1,7 @@
 # PolyBase-SQLServer-AzureBlobStorage
 
-## /********** My PolyBase Mind Map **********/
-/*
+## My PolyBase Mind Map
+
 
 PolyBase enables your SQL Server instance to process T-SQL queries that read data from external data sources. 
 SQL Server 2016 and higher - external data in Hadoop and Azure Blob Storage,
@@ -29,11 +29,10 @@ Note:
 Requires JRE installation while setting up SQL Server
 
 In SSMS, it's accessible at: 
-Databases > DBName > External Data Sources (myBlob)
-Databases > DBName > External File Formats (exaple csvFormat)
-Databases > DBName > Tables > External Tables > schema.tableName
+-Databases > DBName > External Data Sources (myBlob)
+-Databases > DBName > External File Formats (exaple csvFormat)
+-Databases > DBName > Tables > External Tables > schema.tableName
 
 Main source: https://docs.microsoft.com/en-us/sql/relational-databases/polybase/polybase-configure-azure-blob-storage?view=sql-server-ver15
 
 
-*/
